@@ -7,6 +7,11 @@ def hitung_diskon(total_harga, persen_diskon):
     harga_akhir = total_harga - potongan
     return harga_akhir
 
+def tampilkan_laporan(komoditas, jumlah):
+    print("Laporan Hasil Panen")
+    print("Komoditas :", komoditas)
+    print("Jumlah panen :", jumlah, "kg")
+
 jumlah_karung = 12
 berat_per_karung = 25
 harga_per_kg = 8000
