@@ -13,7 +13,7 @@ def hitung_diskon(total_harga, persen_diskon):
     return harga_akhir
 
 def tampilkan_laporan(komoditas, jumlah):
-    print("Laporan Hasil Panen")
+    print("Laporan Hasil Panen Azizah")
     print("Komoditas :", komoditas)
     print("Jumlah panen :", jumlah, "kg")
 
